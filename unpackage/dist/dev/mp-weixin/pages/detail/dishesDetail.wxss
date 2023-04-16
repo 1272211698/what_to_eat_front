@@ -1,0 +1,44 @@
+
+.example-body {
+	display: flex;
+	padding: 10px 15px;
+}
+button:hover {
+	background-color: #0062cc;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+	-webkit-transform: translateY(-2px);
+	        transform: translateY(-2px);
+}
+.btn {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 30px;
+	cursor: pointer;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out;
+	width: 90px;
+	height: 30px;
+	line-height: 18px;
+}
+.card-actions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 45px;
+	border-top: 1px #eee solid;
+}
+.card-actions-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.card-actions-item-text {
+	font-size: 12px;
+	color: #666;
+	margin-left: 5px;
+}
+

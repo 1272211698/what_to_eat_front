@@ -1,0 +1,44 @@
+
+.uni-form-item .title {
+	padding: 20rpx 0;
+}
+button:hover {
+	background-color: #0062cc;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+	-webkit-transform: translateY(-2px);
+	        transform: translateY(-2px);
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.btn {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 30px;
+	cursor: pointer;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out;
+	width: 100px;
+	height: 40px;
+	line-height: 18px;
+	position: relative;
+	top: 15px;
+}
+.info {
+	padding: 15px;
+	color: #666;
+}
+.info-text {
+	font-size: 14px;
+	color: #666;
+}
+.uni-mt-5 {
+	margin-top: 5px;
+}
+
